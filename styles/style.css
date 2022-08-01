@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box; 
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+.card {
+    padding: 20px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+.equilibrium-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+}
+
+h3, svg {
+    font-size: 15px;
+}
+
+.price-h3 {
+    color: #00FFF8;
+}
+
+.price-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer img {
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 2.3rem;
+    height: 2.3rem;
+    
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+hr {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin: 10px 0;
+}
