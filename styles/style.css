@@ -6,7 +6,12 @@
 }
 
 body {
+    display: flex;
     background-color: hsl(217, 54%, 11%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
 }
 .card {
     padding: 20px;
